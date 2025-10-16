@@ -1,0 +1,45 @@
+printf("Total = %.2f, Average = %.2f,
+
+("6. Marks total, average and grade", r" #include <stdio.h>
+
+int main() {
+
+float m1, m2, m3, total, avg; printf("Enter marks of three subjects:
+
+scanf("%f %f %f", &m1, &m2, &m3); total = m1 + m2 + m3;
+
+avg = total / 3;
+
+if (m1 < 35 || m2 < 35 || m3 < 35) {
+
+Result = Fail (less than 35 in a subject) \n", total, avg);
+
+} else if (avg >= 70) {
+
+printf("Total = %.2f, Average = %.2f, Result = Distinction\n", total, avg);
+
+} else if (avg >= 60) {
+
+printf("Total = %.2f, Average = %.2f, Result = First Class\n", total, avg);
+
+} else if (avg >= 50) {
+
+printf("Total = %.2f, Average = %.2f, Result = Second Class\n", total, avg);
+
+} else if (avg >= 35) {
+
+printf("Total = %.2f, Average = %.2f, Result = Third Class\n", total, avg);
+
+} else {
+
+printf("Total = %.2f, Average = %.2f, Result = Fail\n", total, avg);
+
+return 0;
+}
+
+
+
+
+
+
+
